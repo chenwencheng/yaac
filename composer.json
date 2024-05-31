@@ -1,6 +1,6 @@
 {
-  "name": "afosto/yaac",
-  "description": "Yet Another ACME client: a decoupled LetsEncrypt client",
+  "name": "qf/acme",
+  "description": "Yet Another ACME client: a decoupled LetsEncrypt client fork from afosto/yaac",
   "type": "package",
   "keywords": [
     "afosto",
@@ -26,8 +26,7 @@
   },
   "require": {
     "guzzlehttp/guzzle": "^6.3|^7.0",
-    "league/flysystem": "^1.0|^3.0",
-
+    "league/flysystem": "^1.0|^2.0|^3.0",
     "ext-openssl": "*",
     "ext-json": "*"
   }
